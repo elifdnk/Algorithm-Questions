@@ -47,5 +47,5 @@ public class Generate_Documents {
 
 }
 /*
-you are given a string of avaible char and a string representing a document that you need to generate. write a func that determines if you can generate the document using the avaible char. ıf you can generate the document your func should return true; otherwise it should return false. you are ablke to generate the document if the frequency of unique chars int the chars string is greater than or equal to the frequency of unique chars in the document string
+you are given a string of available char and a string representing a document that you need to generate. write a func that determines if you can generate the document using the available char. ıf you can generate the document your func should return true; otherwise it should return false. you are able to generate the document if the frequency of unique chars int the chars string is greater than or equal to the frequency of unique chars in the document string
  */
