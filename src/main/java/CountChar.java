@@ -1,23 +1,42 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class CountChar {
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        String str = "indivisibility";
+        System.out.println(countChars(str));
 
 
     }
+
+
+    public static int countChars(String str){
+        Map<Character,Integer> charCount = new HashMap<>();
+
+        for(char c : str.toCharArray()){
+            char lowerCaseChar= Character.toLowerCase(c);
+            if (Character.isLetterOrDigit(lowerCaseChar)){
+                charCount.put(lowerCaseChar,charCount.getOrDefault(lowerCaseChar,0)+1);
+            }
+        }
+        int repeatedCount =0;
+        for(int count : charCount.values()){
+            if (count>1){
+                repeatedCount++;
+            }
+        }
+        return repeatedCount;
+    }
+
+
+
+
+
+
+
+
+
 }
 /*
 Write a function that will return the count of distinct case-insensitive alphabetic characters
