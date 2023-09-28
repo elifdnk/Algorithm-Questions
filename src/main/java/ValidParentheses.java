@@ -17,13 +17,13 @@ public class ValidParentheses {
                 if (stack.isEmpty()) {
                     return false;  //if stack empty result is false
                 }
-                char out = stack.pop(); // we put inside the ch
+                char out = stack.pop(); // we put outside the last element of stack
                 if (ch == ')' && out != '(') return false;     // and we look it is true or not
                 else if (ch == '}' && out != '{') return false;
                 else if (ch == ']' && out != '[') return false;
             }
         }
-        return stack.isEmpty();
+        return stack.isEmpty();  // if stack is empty return true.
     }
 
 }
