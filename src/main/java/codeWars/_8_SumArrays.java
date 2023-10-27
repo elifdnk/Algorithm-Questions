@@ -2,7 +2,7 @@ package codeWars;
 
 import java.util.Arrays;
 
-public class SumArrays {
+public class _8_SumArrays {
 
     public static double sum(double[] numbers) {  //Stream solution
         return Arrays.stream(numbers).sum();
