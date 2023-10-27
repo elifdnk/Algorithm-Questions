@@ -1,6 +1,6 @@
 package codeWars;
 
-public class ReversedSequence {
+public class _8_ReversedSequence {
     public static int[] reverse(int n){
 
         int[] array = new int[n];
