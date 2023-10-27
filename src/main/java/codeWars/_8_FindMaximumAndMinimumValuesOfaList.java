@@ -2,7 +2,7 @@ package codeWars;
 
 import java.util.Arrays;
 
-public class FindMaximumAndMinimumValuesOfaList {
+public class _8_FindMaximumAndMinimumValuesOfaList {
 
     public int min(int[] list) {
         int min = list[0];
