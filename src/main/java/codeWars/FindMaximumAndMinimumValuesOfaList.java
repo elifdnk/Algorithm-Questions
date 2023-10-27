@@ -20,7 +20,7 @@ public class FindMaximumAndMinimumValuesOfaList {
         return max;
     }
 
-    //--------------------------------------------------------------//
+    //------------STREAM SOLUTION--------------------//
     public int min2(int[] list) {
         return Arrays.stream(list).min().getAsInt();
     }
