@@ -1,6 +1,6 @@
 package codeWars;
 
-public class SumOfNumber {
+public class _8_SumOfNumber {
 
     public static int summation(int n) {
 
