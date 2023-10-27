@@ -1,6 +1,6 @@
 package codeWars;
 
-public class ANeedleInTheHaystack {
+public class _8_ANeedleInTheHaystack {
     public static String findNeedle(Object[] haystack) {
 
         for(int i=0; i<=haystack.length;i++){
